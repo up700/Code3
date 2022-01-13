@@ -95,9 +95,6 @@ cd ../Type-Prediction/
 ```
 #### 1. Construct the inputs based on the candidate spans
 ```console
-cp ptms/politics/dev_pred_spans.json ../Type-Prediction/dataset/
-```
-```console
 python dataset/combine.py --target politics --eval dev
 ```
 ```console
